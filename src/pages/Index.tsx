@@ -2,6 +2,7 @@
 import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -61,6 +62,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+        
+        {/* Добавляем раздел отзывов */}
+        <TestimonialsSection />
         
         {/* Раздел о методах работы */}
         <section className="py-16 bg-background">
